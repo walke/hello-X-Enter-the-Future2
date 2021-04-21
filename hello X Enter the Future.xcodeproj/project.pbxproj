@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CB80439826306FA300981642 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB80439726306FA300981642 /* AppDelegate.swift */; };
+		CB80439A26306FA300981642 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB80439926306FA300981642 /* SceneDelegate.swift */; };
+		CB80439C26306FA300981642 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB80439B26306FA300981642 /* ViewController.swift */; };
+		CB80439F26306FA300981642 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB80439D26306FA300981642 /* Main.storyboard */; };
+		CB8043A126306FA400981642 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB8043A026306FA400981642 /* Assets.xcassets */; };
+		CB8043A426306FA400981642 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB8043A226306FA400981642 /* LaunchScreen.storyboard */; };
+		CB8043AF26306FA500981642 /* hello_X_Enter_the_FutureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8043AE26306FA500981642 /* hello_X_Enter_the_FutureTests.swift */; };
+		CB8043BA26306FA500981642 /* hello_X_Enter_the_FutureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8043B926306FA500981642 /* hello_X_Enter_the_FutureUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CB8043AB26306FA500981642 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB80438C26306FA300981642 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB80439326306FA300981642;
+			remoteInfo = "hello X Enter the Future";
+		};
+		CB8043B626306FA500981642 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CB80438C26306FA300981642 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB80439326306FA300981642;
+			remoteInfo = "hello X Enter the Future";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CB80439426306FA300981642 /* hello X Enter the Future.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hello X Enter the Future.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB80439726306FA300981642 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CB80439926306FA300981642 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CB80439B26306FA300981642 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CB80439E26306FA300981642 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CB8043A026306FA400981642 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CB8043A326306FA400981642 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CB8043A526306FA400981642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB8043AA26306FA500981642 /* hello X Enter the FutureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hello X Enter the FutureTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB8043AE26306FA500981642 /* hello_X_Enter_the_FutureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hello_X_Enter_the_FutureTests.swift; sourceTree = "<group>"; };
+		CB8043B026306FA500981642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB8043B526306FA500981642 /* hello X Enter the FutureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hello X Enter the FutureUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB8043B926306FA500981642 /* hello_X_Enter_the_FutureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hello_X_Enter_the_FutureUITests.swift; sourceTree = "<group>"; };
+		CB8043BB26306FA500981642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CB80439126306FA300981642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB8043A726306FA500981642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB8043B226306FA500981642 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CB80438B26306FA300981642 = {
+			isa = PBXGroup;
+			children = (
+				CB80439626306FA300981642 /* hello X Enter the Future */,
+				CB8043AD26306FA500981642 /* hello X Enter the FutureTests */,
+				CB8043B826306FA500981642 /* hello X Enter the FutureUITests */,
+				CB80439526306FA300981642 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CB80439526306FA300981642 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CB80439426306FA300981642 /* hello X Enter the Future.app */,
+				CB8043AA26306FA500981642 /* hello X Enter the FutureTests.xctest */,
+				CB8043B526306FA500981642 /* hello X Enter the FutureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CB80439626306FA300981642 /* hello X Enter the Future */ = {
+			isa = PBXGroup;
+			children = (
+				CB80439726306FA300981642 /* AppDelegate.swift */,
+				CB80439926306FA300981642 /* SceneDelegate.swift */,
+				CB80439B26306FA300981642 /* ViewController.swift */,
+				CB80439D26306FA300981642 /* Main.storyboard */,
+				CB8043A026306FA400981642 /* Assets.xcassets */,
+				CB8043A226306FA400981642 /* LaunchScreen.storyboard */,
+				CB8043A526306FA400981642 /* Info.plist */,
+			);
+			path = "hello X Enter the Future";
+			sourceTree = "<group>";
+		};
+		CB8043AD26306FA500981642 /* hello X Enter the FutureTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB8043AE26306FA500981642 /* hello_X_Enter_the_FutureTests.swift */,
+				CB8043B026306FA500981642 /* Info.plist */,
+			);
+			path = "hello X Enter the FutureTests";
+			sourceTree = "<group>";
+		};
+		CB8043B826306FA500981642 /* hello X Enter the FutureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CB8043B926306FA500981642 /* hello_X_Enter_the_FutureUITests.swift */,
+				CB8043BB26306FA500981642 /* Info.plist */,
+			);
+			path = "hello X Enter the FutureUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CB80439326306FA300981642 /* hello X Enter the Future */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB8043BE26306FA500981642 /* Build configuration list for PBXNativeTarget "hello X Enter the Future" */;
+			buildPhases = (
+				CB80439026306FA300981642 /* Sources */,
+				CB80439126306FA300981642 /* Frameworks */,
+				CB80439226306FA300981642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hello X Enter the Future";
+			productName = "hello X Enter the Future";
+			productReference = CB80439426306FA300981642 /* hello X Enter the Future.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CB8043A926306FA500981642 /* hello X Enter the FutureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB8043C126306FA500981642 /* Build configuration list for PBXNativeTarget "hello X Enter the FutureTests" */;
+			buildPhases = (
+				CB8043A626306FA500981642 /* Sources */,
+				CB8043A726306FA500981642 /* Frameworks */,
+				CB8043A826306FA500981642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB8043AC26306FA500981642 /* PBXTargetDependency */,
+			);
+			name = "hello X Enter the FutureTests";
+			productName = "hello X Enter the FutureTests";
+			productReference = CB8043AA26306FA500981642 /* hello X Enter the FutureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CB8043B426306FA500981642 /* hello X Enter the FutureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB8043C426306FA500981642 /* Build configuration list for PBXNativeTarget "hello X Enter the FutureUITests" */;
+			buildPhases = (
+				CB8043B126306FA500981642 /* Sources */,
+				CB8043B226306FA500981642 /* Frameworks */,
+				CB8043B326306FA500981642 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CB8043B726306FA500981642 /* PBXTargetDependency */,
+			);
+			name = "hello X Enter the FutureUITests";
+			productName = "hello X Enter the FutureUITests";
+			productReference = CB8043B526306FA500981642 /* hello X Enter the FutureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CB80438C26306FA300981642 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					CB80439326306FA300981642 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					CB8043A926306FA500981642 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CB80439326306FA300981642;
+					};
+					CB8043B426306FA500981642 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = CB80439326306FA300981642;
+					};
+				};
+			};
+			buildConfigurationList = CB80438F26306FA300981642 /* Build configuration list for PBXProject "hello X Enter the Future" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CB80438B26306FA300981642;
+			productRefGroup = CB80439526306FA300981642 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CB80439326306FA300981642 /* hello X Enter the Future */,
+				CB8043A926306FA500981642 /* hello X Enter the FutureTests */,
+				CB8043B426306FA500981642 /* hello X Enter the FutureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CB80439226306FA300981642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB8043A426306FA400981642 /* LaunchScreen.storyboard in Resources */,
+				CB8043A126306FA400981642 /* Assets.xcassets in Resources */,
+				CB80439F26306FA300981642 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB8043A826306FA500981642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB8043B326306FA500981642 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CB80439026306FA300981642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB80439C26306FA300981642 /* ViewController.swift in Sources */,
+				CB80439826306FA300981642 /* AppDelegate.swift in Sources */,
+				CB80439A26306FA300981642 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB8043A626306FA500981642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB8043AF26306FA500981642 /* hello_X_Enter_the_FutureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CB8043B126306FA500981642 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB8043BA26306FA500981642 /* hello_X_Enter_the_FutureUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CB8043AC26306FA500981642 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB80439326306FA300981642 /* hello X Enter the Future */;
+			targetProxy = CB8043AB26306FA500981642 /* PBXContainerItemProxy */;
+		};
+		CB8043B726306FA500981642 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CB80439326306FA300981642 /* hello X Enter the Future */;
+			targetProxy = CB8043B626306FA500981642 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CB80439D26306FA300981642 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB80439E26306FA300981642 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CB8043A226306FA400981642 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CB8043A326306FA400981642 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CB8043BC26306FA500981642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CB8043BD26306FA500981642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CB8043BF26306FA500981642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AR7WZZ6BUD;
+				INFOPLIST_FILE = "hello X Enter the Future/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ice9.hello-X-Enter-the-Future";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB8043C026306FA500981642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AR7WZZ6BUD;
+				INFOPLIST_FILE = "hello X Enter the Future/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ice9.hello-X-Enter-the-Future";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CB8043C226306FA500981642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AR7WZZ6BUD;
+				INFOPLIST_FILE = "hello X Enter the FutureTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ice9.hello-X-Enter-the-FutureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hello X Enter the Future.app/hello X Enter the Future";
+			};
+			name = Debug;
+		};
+		CB8043C326306FA500981642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AR7WZZ6BUD;
+				INFOPLIST_FILE = "hello X Enter the FutureTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ice9.hello-X-Enter-the-FutureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hello X Enter the Future.app/hello X Enter the Future";
+			};
+			name = Release;
+		};
+		CB8043C526306FA500981642 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AR7WZZ6BUD;
+				INFOPLIST_FILE = "hello X Enter the FutureUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ice9.hello-X-Enter-the-FutureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hello X Enter the Future";
+			};
+			name = Debug;
+		};
+		CB8043C626306FA500981642 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AR7WZZ6BUD;
+				INFOPLIST_FILE = "hello X Enter the FutureUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ice9.hello-X-Enter-the-FutureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "hello X Enter the Future";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CB80438F26306FA300981642 /* Build configuration list for PBXProject "hello X Enter the Future" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB8043BC26306FA500981642 /* Debug */,
+				CB8043BD26306FA500981642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB8043BE26306FA500981642 /* Build configuration list for PBXNativeTarget "hello X Enter the Future" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB8043BF26306FA500981642 /* Debug */,
+				CB8043C026306FA500981642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB8043C126306FA500981642 /* Build configuration list for PBXNativeTarget "hello X Enter the FutureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB8043C226306FA500981642 /* Debug */,
+				CB8043C326306FA500981642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB8043C426306FA500981642 /* Build configuration list for PBXNativeTarget "hello X Enter the FutureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CB8043C526306FA500981642 /* Debug */,
+				CB8043C626306FA500981642 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CB80438C26306FA300981642 /* Project object */;
+}
