@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+ <asset>
+  <contributor>
+   <authoring_tool>SceneKit Collada Exporter v1.0</authoring_tool>
+  </contributor>
+  <created>2020-06-23T17:55:58Z</created>
+  <modified>2020-06-23T17:55:58Z</modified>
+  <unit meter="1.000000"/>
+  <up_axis>Y_UP</up_axis>
+ </asset>
+ <library_images>
+  <image id="image1">
+   <init_from>../textures/card5back.png</init_from>
+  </image>
+  <image id="image2">
+   <init_from>../textures/card5front.png</init_from>
+  </image>
+ </library_images>
+ <library_materials>
+  <material id="Material_007-material" name="Material_007">
+   <instance_effect url="#effect_Material_007-material"/>
+  </material>
+  <material id="Material_006-material" name="Material_006">
+   <instance_effect url="#effect_Material_006-material"/>
+  </material>
+ </library_materials>
+ <library_effects>
+  <effect id="effect_Material_007-material">
+   <profile_COMMON>
+    <newparam sid="ID3_image1_surface">
+     <surface type="2D">
+      <init_from>image1</init_from>
+     </surface>
+    </newparam>
+    <newparam sid="ID3_image1">
+     <sampler2D>
+      <source>ID3_image1_surface</source>
+      <wrap_s>WRAP</wrap_s>
+      <wrap_t>WRAP</wrap_t>
+      <minfilter>LINEAR</minfilter>
+      <magfilter>LINEAR</magfilter>
+      <mipfilter>LINEAR</mipfilter>
+     </sampler2D>
+    </newparam>
+    <technique sid="common">
+     <lambert>
+      <diffuse>
+       <texture texture="ID3_image1" texcoord="CHANNEL2"/>
+      </diffuse>
+      <transparency>
+       <float>1</float>
+      </transparency>
+      <index_of_refraction>
+       <float>1</float>
+      </index_of_refraction>
+     </lambert>
+    </technique>
+   </profile_COMMON>
+   <extra>
+    <technique profile="SceneKit">
+     <litPerPixel>1</litPerPixel>
+     <ambient_diffuse_lock>0</ambient_diffuse_lock>
+    </technique>
+   </extra>
+  </effect>
+  <effect id="effect_Material_006-material">
+   <profile_COMMON>
+    <newparam sid="ID4_image2_surface">
+     <surface type="2D">
+      <init_from>image2</init_from>
+     </surface>
+    </newparam>
+    <newparam sid="ID4_image2">
+     <sampler2D>
+      <source>ID4_image2_surface</source>
+      <wrap_s>WRAP</wrap_s>
+      <wrap_t>WRAP</wrap_t>
+      <minfilter>LINEAR</minfilter>
+      <magfilter>LINEAR</magfilter>
+      <mipfilter>LINEAR</mipfilter>
+     </sampler2D>
+    </newparam>
+    <technique sid="common">
+     <lambert>
+      <diffuse>
+       <texture texture="ID4_image2" texcoord="CHANNEL2"/>
+      </diffuse>
+      <transparency>
+       <float>1</float>
+      </transparency>
+      <index_of_refraction>
+       <float>1</float>
+      </index_of_refraction>
+     </lambert>
+    </technique>
+   </profile_COMMON>
+   <extra>
+    <technique profile="SceneKit">
+     <litPerPixel>1</litPerPixel>
+     <ambient_diffuse_lock>0</ambient_diffuse_lock>
+    </technique>
+   </extra>
+  </effect>
+ </library_effects>
+ <library_geometries>
+  <geometry id="geometry5">
+   <mesh>
+    <source id="Plane_005-mesh-positions">
+     <float_array id="ID6-array" count="108">-0.0482574 0.000521993 -0.063584 0.0482582 0.000521993 0.0635845 -0.0482574 0.000521993 0.0635845 0.0482582 0.000521993 -0.063584 0.0482582 -0.000378946 0.0635845 0.0482582 0.000521993 0.0635845 -0.0482574 0.000521993 0.0635845 -0.0482574 -0.000378946 -0.063584 -0.0482574 0.000521993 -0.063584 -0.0482574 0.000521993 -0.063584 0.0482582 -0.000378946 -0.063584 0.0482582 0.000521993 -0.063584 0.0482582 0.000521993 0.0635845 -0.0482574 -0.000378946 0.0635845 -0.0482574 0.000521993 0.0635845 -0.0482574 0.000521993 -0.063584 0.0482582 0.000521993 -0.063584 0.0482582 0.000521993 0.0635845 0.0482582 0.000521993 -0.063584 0.0482582 -0.000378946 -0.063584 0.0482582 -0.000378946 0.0635845 -0.0482574 0.000521993 0.0635845 -0.0482574 -0.000378946 0.0635845 -0.0482574 -0.000378946 -0.063584 -0.0482574 0.000521993 -0.063584 -0.0482574 -0.000378946 -0.063584 0.0482582 -0.000378946 -0.063584 0.0482582 0.000521993 0.0635845 0.0482582 -0.000378946 0.0635845 -0.0482574 -0.000378946 0.0635845 0.0482582 -0.000378946 0.0635845 -0.0482574 -0.000378946 -0.063584 -0.0482574 -0.000378946 0.0635845 0.0482582 -0.000378946 0.0635845 0.0482582 -0.000378946 -0.063584 -0.0482574 -0.000378946 -0.063584 </float_array>
+     <technique_common>
+      <accessor source="#ID6-array" count="36" stride="3">
+       <param name="X" type="float"/>
+       <param name="Y" type="float"/>
+       <param name="Z" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="Plane_005-mesh-normals">
+     <float_array id="ID7-array" count="108">0 -1 -0 0 -1 -0 0 -1 -0 -1 0 -0 -1 0 -0 -1 0 -0 1 0 -0 1 0 -0 1 0 -0 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 -1 -0 0 -1 -0 0 -1 -0 -1 0 -0 -1 0 -0 -1 0 -0 1 0 -0 1 0 -0 1 0 -0 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 1 -0 0 1 -0 0 1 -0 0 1 -0 0 1 -0 0 1 -0 </float_array>
+     <technique_common>
+      <accessor source="#ID7-array" count="36" stride="3">
+       <param name="X" type="float"/>
+       <param name="Y" type="float"/>
+       <param name="Z" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="Plane_005-mesh-map-0">
+     <float_array id="ID8-array" count="72">1 1 0 0 1 0 1 1 1 0 1 0 0 0 0 1 0 1 0 1 1 1 1 1 1 0 0 0 0 0 1 1 0 1 0 0 1 1 1 1 1 0 0 0 0 0 0 1 0 1 0 1 1 1 1 0 1 0 0 0 1 0 0 1 0 0 1 0 1 1 0 1 </float_array>
+     <technique_common>
+      <accessor source="#ID8-array" count="36" stride="2">
+       <param name="S" type="float"/>
+       <param name="T" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <vertices id="Plane_005-mesh-positions-vertices">
+     <input semantic="POSITION" source="#Plane_005-mesh-positions"/>
+    </vertices>
+    <triangles count="10" material="geometryElement9">
+     <input semantic="VERTEX" offset="0" source="#Plane_005-mesh-positions-vertices"/>
+     <input semantic="NORMAL" offset="0" source="#Plane_005-mesh-normals"/>
+     <input semantic="TEXCOORD" offset="0" source="#Plane_005-mesh-map-0" set="1"/>
+     <p>0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 </p>
+    </triangles>
+    <triangles count="2" material="geometryElement10">
+     <input semantic="VERTEX" offset="0" source="#Plane_005-mesh-positions-vertices"/>
+     <input semantic="NORMAL" offset="0" source="#Plane_005-mesh-normals"/>
+     <input semantic="TEXCOORD" offset="0" source="#Plane_005-mesh-map-0" set="1"/>
+     <p>30 31 32 33 34 35 </p>
+    </triangles>
+   </mesh>
+  </geometry>
+ </library_geometries>
+ <library_visual_scenes>
+  <visual_scene id="scene11">
+   <node id="CARD_1" name="CARD_1">
+    <instance_geometry url="#geometry5">
+     <bind_material>
+      <technique_common>
+       <instance_material symbol="geometryElement9" target="#Material_007-material">
+        <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="1"/>
+       </instance_material>
+       <instance_material symbol="geometryElement10" target="#Material_006-material">
+        <bind_vertex_input semantic="CHANNEL2" input_semantic="TEXCOORD" input_set="1"/>
+       </instance_material>
+      </technique_common>
+     </bind_material>
+    </instance_geometry>
+   </node>
+  </visual_scene>
+ </library_visual_scenes>
+ <scene>
+  <instance_visual_scene url="#scene11"/>
+ </scene>
+</COLLADA>

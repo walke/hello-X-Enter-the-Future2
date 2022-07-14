@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CB6323A5263ADE350097BA7D /* HelpLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6323A4263ADE350097BA7D /* HelpLayer.swift */; };
+		CB6323B0263B53570097BA7D /* MenuLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6323AF263B53570097BA7D /* MenuLayer.swift */; };
 		CB80439826306FA300981642 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB80439726306FA300981642 /* AppDelegate.swift */; };
 		CB80439A26306FA300981642 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB80439926306FA300981642 /* SceneDelegate.swift */; };
 		CB80439C26306FA300981642 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB80439B26306FA300981642 /* ViewController.swift */; };
@@ -15,6 +17,19 @@
 		CB8043A426306FA400981642 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB8043A226306FA400981642 /* LaunchScreen.storyboard */; };
 		CB8043AF26306FA500981642 /* hello_X_Enter_the_FutureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8043AE26306FA500981642 /* hello_X_Enter_the_FutureTests.swift */; };
 		CB8043BA26306FA500981642 /* hello_X_Enter_the_FutureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8043B926306FA500981642 /* hello_X_Enter_the_FutureUITests.swift */; };
+		CB8043D42631B84200981642 /* PlaceAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8043D32631B84200981642 /* PlaceAnnotation.swift */; };
+		CB8043D92631B88200981642 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8043D82631B88200981642 /* MenuViewController.swift */; };
+		CB8043DE2631B92F00981642 /* LevelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8043DD2631B92F00981642 /* LevelController.swift */; };
+		CB8043EC2631B9C400981642 /* PartLayerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8043E32631B9C400981642 /* PartLayerClass.swift */; };
+		CB8043ED2631B9C400981642 /* ChoiceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8043E42631B9C400981642 /* ChoiceLayer.swift */; };
+		CB8043EE2631B9C400981642 /* ImageLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8043E52631B9C400981642 /* ImageLayer.swift */; };
+		CB8043EF2631B9C400981642 /* SolidLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8043E62631B9C400981642 /* SolidLayer.swift */; };
+		CB8043F02631B9C400981642 /* PlayerLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8043E72631B9C400981642 /* PlayerLayer.swift */; };
+		CB8043F12631B9C400981642 /* MapLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8043E82631B9C400981642 /* MapLayer.swift */; };
+		CB8043F22631B9C400981642 /* TextLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8043E92631B9C400981642 /* TextLayer.swift */; };
+		CB8043F32631B9C400981642 /* ActionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8043EA2631B9C400981642 /* ActionLayer.swift */; };
+		CB8043F42631B9C400981642 /* ARLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8043EB2631B9C400981642 /* ARLayer.swift */; };
+		CB8043F92631BA7700981642 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = CB8043F82631BA7700981642 /* art.scnassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CB6323A4263ADE350097BA7D /* HelpLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpLayer.swift; sourceTree = "<group>"; };
+		CB6323AF263B53570097BA7D /* MenuLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuLayer.swift; sourceTree = "<group>"; };
 		CB80439426306FA300981642 /* hello X Enter the Future.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hello X Enter the Future.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB80439726306FA300981642 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB80439926306FA300981642 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +66,19 @@
 		CB8043B526306FA500981642 /* hello X Enter the FutureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hello X Enter the FutureUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB8043B926306FA500981642 /* hello_X_Enter_the_FutureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hello_X_Enter_the_FutureUITests.swift; sourceTree = "<group>"; };
 		CB8043BB26306FA500981642 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB8043D32631B84200981642 /* PlaceAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlaceAnnotation.swift; sourceTree = "<group>"; };
+		CB8043D82631B88200981642 /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		CB8043DD2631B92F00981642 /* LevelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LevelController.swift; sourceTree = "<group>"; };
+		CB8043E32631B9C400981642 /* PartLayerClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartLayerClass.swift; sourceTree = "<group>"; };
+		CB8043E42631B9C400981642 /* ChoiceLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChoiceLayer.swift; sourceTree = "<group>"; };
+		CB8043E52631B9C400981642 /* ImageLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLayer.swift; sourceTree = "<group>"; };
+		CB8043E62631B9C400981642 /* SolidLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SolidLayer.swift; sourceTree = "<group>"; };
+		CB8043E72631B9C400981642 /* PlayerLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerLayer.swift; sourceTree = "<group>"; };
+		CB8043E82631B9C400981642 /* MapLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapLayer.swift; sourceTree = "<group>"; };
+		CB8043E92631B9C400981642 /* TextLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextLayer.swift; sourceTree = "<group>"; };
+		CB8043EA2631B9C400981642 /* ActionLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionLayer.swift; sourceTree = "<group>"; };
+		CB8043EB2631B9C400981642 /* ARLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARLayer.swift; sourceTree = "<group>"; };
+		CB8043F82631BA7700981642 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +129,14 @@
 		CB80439626306FA300981642 /* hello X Enter the Future */ = {
 			isa = PBXGroup;
 			children = (
+				CB8043F82631BA7700981642 /* art.scnassets */,
+				CB8043E22631B99F00981642 /* PartLayers */,
+				CB8043DD2631B92F00981642 /* LevelController.swift */,
 				CB80439726306FA300981642 /* AppDelegate.swift */,
+				CB8043D82631B88200981642 /* MenuViewController.swift */,
 				CB80439926306FA300981642 /* SceneDelegate.swift */,
 				CB80439B26306FA300981642 /* ViewController.swift */,
+				CB8043D32631B84200981642 /* PlaceAnnotation.swift */,
 				CB80439D26306FA300981642 /* Main.storyboard */,
 				CB8043A026306FA400981642 /* Assets.xcassets */,
 				CB8043A226306FA400981642 /* LaunchScreen.storyboard */,
@@ -126,6 +161,24 @@
 				CB8043BB26306FA500981642 /* Info.plist */,
 			);
 			path = "hello X Enter the FutureUITests";
+			sourceTree = "<group>";
+		};
+		CB8043E22631B99F00981642 /* PartLayers */ = {
+			isa = PBXGroup;
+			children = (
+				CB8043EA2631B9C400981642 /* ActionLayer.swift */,
+				CB8043EB2631B9C400981642 /* ARLayer.swift */,
+				CB8043E42631B9C400981642 /* ChoiceLayer.swift */,
+				CB8043E52631B9C400981642 /* ImageLayer.swift */,
+				CB8043E82631B9C400981642 /* MapLayer.swift */,
+				CB8043E32631B9C400981642 /* PartLayerClass.swift */,
+				CB8043E72631B9C400981642 /* PlayerLayer.swift */,
+				CB8043E62631B9C400981642 /* SolidLayer.swift */,
+				CB8043E92631B9C400981642 /* TextLayer.swift */,
+				CB6323A4263ADE350097BA7D /* HelpLayer.swift */,
+				CB6323AF263B53570097BA7D /* MenuLayer.swift */,
+			);
+			path = PartLayers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +285,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB8043A426306FA400981642 /* LaunchScreen.storyboard in Resources */,
+				CB8043F92631BA7700981642 /* art.scnassets in Resources */,
 				CB8043A126306FA400981642 /* Assets.xcassets in Resources */,
 				CB80439F26306FA300981642 /* Main.storyboard in Resources */,
 			);
@@ -258,9 +312,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB6323A5263ADE350097BA7D /* HelpLayer.swift in Sources */,
+				CB8043F12631B9C400981642 /* MapLayer.swift in Sources */,
+				CB8043D42631B84200981642 /* PlaceAnnotation.swift in Sources */,
+				CB8043EC2631B9C400981642 /* PartLayerClass.swift in Sources */,
+				CB8043F32631B9C400981642 /* ActionLayer.swift in Sources */,
+				CB8043EE2631B9C400981642 /* ImageLayer.swift in Sources */,
+				CB8043F42631B9C400981642 /* ARLayer.swift in Sources */,
+				CB8043EF2631B9C400981642 /* SolidLayer.swift in Sources */,
+				CB8043D92631B88200981642 /* MenuViewController.swift in Sources */,
 				CB80439C26306FA300981642 /* ViewController.swift in Sources */,
+				CB8043ED2631B9C400981642 /* ChoiceLayer.swift in Sources */,
+				CB8043F22631B9C400981642 /* TextLayer.swift in Sources */,
+				CB8043F02631B9C400981642 /* PlayerLayer.swift in Sources */,
 				CB80439826306FA300981642 /* AppDelegate.swift in Sources */,
+				CB8043DE2631B92F00981642 /* LevelController.swift in Sources */,
 				CB80439A26306FA300981642 /* SceneDelegate.swift in Sources */,
+				CB6323B0263B53570097BA7D /* MenuLayer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -443,6 +511,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.60;
 				PRODUCT_BUNDLE_IDENTIFIER = "ice9.hello-X-Enter-the-Future";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -462,6 +531,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 0.60;
 				PRODUCT_BUNDLE_IDENTIFIER = "ice9.hello-X-Enter-the-Future";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
