@@ -1,0 +1,41 @@
+{
+    "levels":[
+        [
+            [
+                {
+                    "type":"solid",
+                    "duration":5,
+                    "color":{"red": 1.0, "green": 0.97299844030000004, "blue": 0.1611703038, "alpha": 1.0}
+                },
+                {
+                    "type":"solid2",
+                    "duration":5,
+                    "color":{"red": 1.0, "green": 0.97299844030000004, "blue": 0.1611703038, "alpha": 1.0}
+                }
+            ],
+            [
+                {
+                    "type":"molid",
+                    "duration":5,
+                    "color":{"red": 1.0, "green": 0.97299844030000004, "blue": 0.1611703038, "alpha": 1.0}
+                }
+            ]
+        ],
+        [
+            [
+                {
+                    "type":"sol45id",
+                    "duration":5,
+                    "color":{"red": 1.0, "green": 0.97299844030000004, "blue": 0.1611703038, "alpha": 1.0}
+                }
+            ],
+            [
+                {
+                    "type":"mol45id",
+                    "duration":5,
+                    "color":{"red": 1.0, "green": 0.97299844030000004, "blue": 0.1611703038, "alpha": 1.0}
+                }
+            ]
+        ]
+    ]
+}
