@@ -32,6 +32,7 @@
 		CB8043F32631B9C400981642 /* ActionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8043EA2631B9C400981642 /* ActionLayer.swift */; };
 		CB8043F42631B9C400981642 /* ARLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB8043EB2631B9C400981642 /* ARLayer.swift */; };
 		CB8043F92631BA7700981642 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = CB8043F82631BA7700981642 /* art.scnassets */; };
+		CBB04F1F2896C78600D939A3 /* cd in Resources */ = {isa = PBXBuildFile; fileRef = CBB04F1E2896C78600D939A3 /* cd */; };
 		CBE14CC9289630A4005297E9 /* leveldata in Resources */ = {isa = PBXBuildFile; fileRef = CBE14CC8289630A4005297E9 /* leveldata */; };
 /* End PBXBuildFile section */
 
@@ -84,6 +85,7 @@
 		CB8043EA2631B9C400981642 /* ActionLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionLayer.swift; sourceTree = "<group>"; };
 		CB8043EB2631B9C400981642 /* ARLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARLayer.swift; sourceTree = "<group>"; };
 		CB8043F82631BA7700981642 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		CBB04F1E2896C78600D939A3 /* cd */ = {isa = PBXFileReference; lastKnownFileType = text; path = cd; sourceTree = "<group>"; };
 		CBE14CC8289630A4005297E9 /* leveldata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = leveldata; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -116,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				CB7B5BEA28960C9A0022D23C /* levels */,
+				CBB04F1E2896C78600D939A3 /* cd */,
 			);
 			path = data;
 			sourceTree = "<group>";
@@ -306,6 +309,7 @@
 				CB8043F92631BA7700981642 /* art.scnassets in Resources */,
 				CB8043A126306FA400981642 /* Assets.xcassets in Resources */,
 				CBE14CC9289630A4005297E9 /* leveldata in Resources */,
+				CBB04F1F2896C78600D939A3 /* cd in Resources */,
 				CB80439F26306FA300981642 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
